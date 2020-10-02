@@ -873,7 +873,8 @@
   name = "github.com/ryanuber/go-glob"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "256dc444b735e061061cf46c809487313d5b0065"
+  revision = "51a8f68e6c24dc43f1e371749c89a267de4ebc53"
+  version = "v1.0.0"
 
 [[projects]]
   digest = "1:7ff9d791d48d8bafcfad8691d0f54dd3351d9d98e26a0f38a268479201022ca1"
