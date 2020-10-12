@@ -1329,7 +1329,7 @@
     "third_party/forked/golang/reflect",
   ]
   pruneopts = "NUT"
-  revision = "208a6980b14bbb263f29482482eabdbcfff9f7bb"
+  revision = "1cb2cdd78d38df243e686d1b572b76e190469842"
 
 [[projects]]
   digest = "1:9e9e090ac4638cc148431c58b08d906b10b6dea3bfb3d4ad7b1557b343c1124f"
