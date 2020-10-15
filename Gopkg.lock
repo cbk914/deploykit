@@ -766,7 +766,7 @@
   version = "v1.4.0"
 
 [[projects]]
-  digest = "1:285ca28825ff762a8491323dd4f7dbd05725438f00ad86ff12690258b831bcf4"
+  digest = "1:90c0f247ee8dd35c4ce255e3cf6b2c1b7de80a624772554985f37e3479156bdd"
   name = "github.com/onsi/gomega"
   packages = [
     ".",
@@ -783,8 +783,8 @@
     "types",
   ]
   pruneopts = "NUT"
-  revision = "c893efa28eb45626cdaa76c9f653b62488858837"
-  version = "v1.2.0"
+  revision = "46e0cd22c9d45e5745e994abc67b128504ad7727"
+  version = "v1.10.3"
 
 [[projects]]
   digest = "1:9bda2e33f39e8ca60c4ddf220b4dcadff77919a87221004f6ca46efb088aeaaf"
@@ -1151,6 +1151,17 @@
   ]
   pruneopts = "NUT"
   revision = "a263ba8"
+
+[[projects]]
+  branch = "master"
+  digest = "1:325a1b73817aa79fc85f10376ed41ea607f7dd7f6c6bfa46df6a28ef2857941f"
+  name = "golang.org/x/xerrors"
+  packages = [
+    ".",
+    "internal",
+  ]
+  pruneopts = "NUT"
+  revision = "5ec99f83aff198f5fbd629d6c8d8eb38a04218ca"
 
 [[projects]]
   digest = "1:e0c2f76ef98396f908f1917c1e542a612a40083734dfbedade36976ec5e89d3a"

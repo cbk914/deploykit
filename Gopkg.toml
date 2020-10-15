@@ -65,7 +65,7 @@
 
 [[constraint]]
   name = "github.com/onsi/gomega"
-  version = "=1.2.0"
+  version = ">= 1.2.0, < 2.0.0"
 
 [[constraint]]
   name = "github.com/ryanuber/go-glob"
