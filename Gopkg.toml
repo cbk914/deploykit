@@ -105,7 +105,7 @@
 
 [[constraint]]
   name = "cloud.google.com/go"
-  revision = "3c8d9080f03b236321fa5054747cd310cba50edd"
+  version = "^0.71.0"
 
 [[override]]
   name = "google.golang.org/grpc"
