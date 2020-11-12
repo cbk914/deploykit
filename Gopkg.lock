@@ -188,7 +188,7 @@
   revision = "4c0e845"
 
 [[projects]]
-  digest = "1:f71da57e2f2fcc3b08e0b12ed8952b950195483e690c6dddda229ea352557ab2"
+  digest = "1:4a1a4a68fdab82b200d50e2b42614257394111b1dcb59780186d9b256a431f80"
   name = "github.com/coreos/etcd"
   packages = [
     "auth/authpb",
@@ -199,8 +199,8 @@
     "pkg/tlsutil",
   ]
   pruneopts = "NUT"
-  revision = "21fdcc6443f3267111051240f0eca839acc96a39"
-  version = "v3.1.3"
+  revision = "f1d7dd87da3e8feab4aaf675b8e29c6a5ed5f58b"
+  version = "v3.2.9"
 
 [[projects]]
   digest = "1:a2c1d0e43bd3baaa071d1b9ed72c27d78169b2b269f71c105ac4ba34b1be4a39"
