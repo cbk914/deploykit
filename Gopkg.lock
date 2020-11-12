@@ -189,12 +189,12 @@
   revision = "v1.0.0-9-g346938d"
 
 [[projects]]
-  digest = "1:e274305eacad23703007a958dd489921399e641e9a7ef8ed5cd37752c47ca498"
+  digest = "1:8bd557621150427d0e57981be07aeaa9dd0f884a27d448b00381a52b5826269d"
   name = "github.com/deckarep/golang-set"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "fc8930a5e645572ee00bf66358ed3414f3c13b90"
-  version = "v1.6"
+  revision = "cbaa98ba5575e67703b32b4b19f73c91f3c4159e"
+  version = "v1.7.1"
 
 [[projects]]
   digest = "1:7403ca996d2709100840dfe3a8431601bcc68dc9ece6b8f2ac4fa4da84c71f17"
