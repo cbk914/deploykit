@@ -47,7 +47,7 @@
 
 [[constraint]]
   name = "github.com/go-ini/ini"
-  version = "=1.21.1"
+  version = ">= 1.21.1, < 2.0.0"
 
 [[constraint]]
   name = "github.com/google/go-querystring"
