@@ -920,12 +920,12 @@
   revision = "256dc444b735e061061cf46c809487313d5b0065"
 
 [[projects]]
-  digest = "1:7ff9d791d48d8bafcfad8691d0f54dd3351d9d98e26a0f38a268479201022ca1"
+  digest = "1:6bc0652ea6e39e22ccd522458b8bdd8665bf23bdc5a20eec90056e4dc7e273ca"
   name = "github.com/satori/go.uuid"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "879c5887cd475cd7864858769793b2ceb0d44feb"
-  version = "v1.1.0"
+  revision = "f58768cc1a7a7e77a3bd49e98cdd21419399b6a3"
+  version = "v1.2.0"
 
 [[projects]]
   digest = "1:11847ffa6c699272c5eec9a987a6a50e81fcab8e9379857a1c6998150bad7d72"
