@@ -69,7 +69,7 @@
 
 [[constraint]]
   name = "github.com/ryanuber/go-glob"
-  revision = "256dc444b735e061061cf46c809487313d5b0065"
+  version = "^1.0.0"
 
 [[constraint]]
   name = "github.com/satori/go.uuid"
