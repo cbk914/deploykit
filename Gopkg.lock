@@ -6,8 +6,8 @@
   name = "cloud.google.com/go"
   packages = ["compute/metadata"]
   pruneopts = "NUT"
-  revision = "e3e62374ae4646946ae20e58521e35e72b3f1804"
-  version = "v0.71.0"
+  revision = "8765ff0e5595c39edaad9a9572a4ac842e86b09e"
+  version = "v0.73.0"
 
 [[projects]]
   digest = "1:4d60e27f5b7557ed7b77c641da8a9f7c9254e8d3d41f4f7c943a4a1bd0ebde14"
