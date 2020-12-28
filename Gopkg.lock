@@ -432,11 +432,15 @@
   revision = "bd3c8e8"
 
 [[projects]]
-  digest = "1:333785d18bfa6ffdd65d84c7e3ce40a23a690bc1d4f3ff50a98ee1229fab0cbf"
+  digest = "1:2ab9604423867862b41dd8817cf160fb69c73b01b32eb3a7487c0ba079663015"
   name = "github.com/golang/protobuf"
   packages = [
     "jsonpb",
     "proto",
+    "ptypes",
+    "ptypes/any",
+    "ptypes/duration",
+    "ptypes/timestamp",
   ]
   pruneopts = "NUT"
   revision = "4bd1920723d7b7c925de087aa32e2187708897f7"
@@ -1241,25 +1245,82 @@
   revision = "v1.0.0-29-g3a452f9"
 
 [[projects]]
-  digest = "1:73ac483b9160d55bbdaa4ca261234e391bd14ac69cfb172bead53e421197a0f0"
+  branch = "master"
+  digest = "1:7339759b4869e4b12e0ab4848f0f5edaa3c045b9b1cfe1d22af121605322490c"
+  name = "google.golang.org/genproto"
+  packages = ["googleapis/rpc/status"]
+  pruneopts = "NUT"
+  revision = "ce600e9a6f9ee4611c6ea38f44d1cf9e095c0c52"
+
+[[projects]]
+  digest = "1:d0e5846da58e4e20d1bbd7502b24f31d37e3ac1e02a9042d95bd93c2d0c139dd"
   name = "google.golang.org/grpc"
   packages = [
     ".",
+    "balancer",
+    "balancer/base",
+    "balancer/roundrobin",
     "codes",
+    "connectivity",
     "credentials",
+    "encoding",
+    "encoding/proto",
     "grpclog",
     "internal",
+    "internal/backoff",
+    "internal/channelz",
+    "internal/grpcrand",
     "keepalive",
     "metadata",
     "naming",
     "peer",
+    "resolver",
+    "resolver/dns",
+    "resolver/passthrough",
     "stats",
+    "status",
     "tap",
     "transport",
   ]
   pruneopts = "NUT"
-  revision = "8050b9cbc271307e5a716a9d782803d09b0d6f2d"
-  version = "v1.2.1"
+  revision = "168a6198bcb0ef175f7dacec0b8691fc141dc9b8"
+  version = "v1.13.0"
+
+[[projects]]
+  digest = "1:90bc77234e2c0cc43fa31db1b4bb2d8931e431665a95ce8e9a70e95b3ea293fa"
+  name = "google.golang.org/protobuf"
+  packages = [
+    "encoding/prototext",
+    "encoding/protowire",
+    "internal/descfmt",
+    "internal/descopts",
+    "internal/detrand",
+    "internal/encoding/defval",
+    "internal/encoding/messageset",
+    "internal/encoding/tag",
+    "internal/encoding/text",
+    "internal/errors",
+    "internal/fieldsort",
+    "internal/filedesc",
+    "internal/filetype",
+    "internal/flags",
+    "internal/genid",
+    "internal/impl",
+    "internal/mapsort",
+    "internal/pragma",
+    "internal/set",
+    "internal/strs",
+    "internal/version",
+    "proto",
+    "reflect/protoreflect",
+    "reflect/protoregistry",
+    "runtime/protoiface",
+    "runtime/protoimpl",
+    "types/known/anypb",
+  ]
+  pruneopts = "NUT"
+  revision = "3f7a61f89bb6813f89d981d1870ed68da0b3c3f1"
+  version = "v1.25.0"
 
 [[projects]]
   digest = "1:1b91ae0dc69a41d4c2ed23ea5cffb721ea63f5037ca4b81e6d6771fbb8f45129"
