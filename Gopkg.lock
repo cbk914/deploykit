@@ -1335,8 +1335,16 @@
   revision = "a5b47d3"
 
 [[projects]]
+  digest = "1:6353092ccd3c5b3199f5cf131987536dc62011efaaea590dbc5ec12128ea50ae"
+  name = "k8s.io/api"
+  packages = ["core/v1"]
+  pruneopts = "NUT"
+  revision = "93c4467f6b76cdaed4d9c968a3ebd0967c3e3ced"
+  version = "v0.19.3"
+
+[[projects]]
   branch = "release-1.7"
-  digest = "1:01d77e0154307ef4553b07385321132d7d94557ae56287c5de7e9b1cd3bf8c4c"
+  digest = "1:bdcdd931710724b23e012f0f0b7f368f0475973ecb3deb91bd53f1df8ea6245a"
   name = "k8s.io/apimachinery"
   packages = [
     "pkg/api/equality",
@@ -1346,6 +1354,7 @@
     "pkg/apimachinery",
     "pkg/apimachinery/announced",
     "pkg/apimachinery/registered",
+    "pkg/apis/meta/internalversion",
     "pkg/apis/meta/v1",
     "pkg/apis/meta/v1/unstructured",
     "pkg/apis/meta/v1alpha1",
@@ -1473,7 +1482,7 @@
   version = "v4.0.0"
 
 [[projects]]
-  digest = "1:82d612f42b7a3953a7d0f8af09e41b664b111db24f7b8ee1543bd6e05c021a1a"
+  digest = "1:cf41640cb281e11ab4bda450377f43bd0ed84b529c77bfb6669c08abfacfebb5"
   name = "k8s.io/kubernetes"
   packages = [
     "cmd/kubeadm/app/apis/kubeadm",
@@ -1483,6 +1492,7 @@
     "cmd/kubeadm/app/discovery/https",
     "cmd/kubeadm/app/discovery/token",
     "cmd/kubeadm/app/util/kubeconfig",
+    "cmd/kubeadm/app/util/pubkeypin",
     "cmd/kubeadm/app/util/token",
     "pkg/api",
     "pkg/bootstrap/api",
@@ -1491,8 +1501,8 @@
     "pkg/util/version",
   ]
   pruneopts = "NUT"
-  revision = "17d7182a7ccbb167074be7a87f0a68bd00d58d97"
-  version = "v1.7.5"
+  revision = "c2bd642c70b3629223ea3b7db566a267a1e2d0df"
+  version = "v1.8.15"
 
 [solve-meta]
   analyzer-name = "dep"
