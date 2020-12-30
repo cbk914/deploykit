@@ -6,8 +6,8 @@
   name = "cloud.google.com/go"
   packages = ["compute/metadata"]
   pruneopts = "NUT"
-  revision = "993bc6d69389a81fc259e0ce6f5d01cb37bd2899"
-  version = "v0.74.0"
+  revision = "e3e62374ae4646946ae20e58521e35e72b3f1804"
+  version = "v0.71.0"
 
 [[projects]]
   digest = "1:4d60e27f5b7557ed7b77c641da8a9f7c9254e8d3d41f4f7c943a4a1bd0ebde14"
@@ -109,7 +109,7 @@
   version = "v6"
 
 [[projects]]
-  digest = "1:24c393fc100e643c515ab40d84d44645b2022db10740f0800f2288cd1a96c445"
+  digest = "1:2602491330039eba5f650895e994cc1e7db8c5168fcc0297e0ed009e601a5afc"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -177,8 +177,8 @@
     "service/sts/stsiface",
   ]
   pruneopts = "NUT"
-  revision = "5bf824bb44d0882723ac522a736aec913d9f05df"
-  version = "v1.36.12"
+  revision = "0fb57ab8994f5807ca0b86606cfc95e403d16eba"
+  version = "v1.36.17"
 
 [[projects]]
   digest = "1:cb0535f5823b47df7dcb9768ebb6c000b79ad115472910c70efe93c9ed9b2315"
