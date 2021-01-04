@@ -6,8 +6,8 @@
   name = "cloud.google.com/go"
   packages = ["compute/metadata"]
   pruneopts = "NUT"
-  revision = "993bc6d69389a81fc259e0ce6f5d01cb37bd2899"
-  version = "v0.74.0"
+  revision = "e3e62374ae4646946ae20e58521e35e72b3f1804"
+  version = "v0.71.0"
 
 [[projects]]
   digest = "1:4d60e27f5b7557ed7b77c641da8a9f7c9254e8d3d41f4f7c943a4a1bd0ebde14"
@@ -188,7 +188,7 @@
   revision = "4c0e845"
 
 [[projects]]
-  digest = "1:4a1a4a68fdab82b200d50e2b42614257394111b1dcb59780186d9b256a431f80"
+  digest = "1:66ee1ebdaec562f8cb34c67a58fe4c97de2ff53b5d7589650c7deab3424ad6f5"
   name = "github.com/coreos/etcd"
   packages = [
     "auth/authpb",
@@ -199,8 +199,32 @@
     "pkg/tlsutil",
   ]
   pruneopts = "NUT"
-  revision = "f1d7dd87da3e8feab4aaf675b8e29c6a5ed5f58b"
-  version = "v3.2.9"
+  revision = "8a03d2e9614b8192ebaa5a25ef92f6ff62e3593c"
+  version = "v3.4.14"
+
+[[projects]]
+  digest = "1:05ffeeed3f0f05520de0679f6aa3219ffee69cfd6d9fb6c194879d4c818ad670"
+  name = "github.com/coreos/go-semver"
+  packages = ["semver"]
+  pruneopts = "NUT"
+  revision = "e214231b295a8ea9479f11b70b35d5acf3556d9b"
+  version = "v0.3.0"
+
+[[projects]]
+  digest = "1:bcf36df8d43860bfde913d008301aef27c6e9a303582118a837c4a34c0d18167"
+  name = "github.com/coreos/go-systemd"
+  packages = ["journal"]
+  pruneopts = "NUT"
+  revision = "b51e752dd1c9c618846f8bc5b95ab524bd7b11c2"
+  version = "v22.1.0"
+
+[[projects]]
+  digest = "1:22332f13485f13511589dc1f59eb97594e8636d3606b69d172a9a85421ad465d"
+  name = "github.com/coreos/pkg"
+  packages = ["capnslog"]
+  pruneopts = "NUT"
+  revision = "97fdf19511ea361ae1c100dd393cc47f8dcfa1e1"
+  version = "v4"
 
 [[projects]]
   digest = "1:a2c1d0e43bd3baaa071d1b9ed72c27d78169b2b269f71c105ac4ba34b1be4a39"
@@ -407,10 +431,12 @@
   revision = "dc8a684"
 
 [[projects]]
-  digest = "1:a6afc27b2a73a5506832f3c5a1c19a30772cb69e7bd1ced4639eb36a55db224f"
+  digest = "1:5590a3b57f9f2579bd94de8fafb41fb7924d0978ead2841a41865a669af995df"
   name = "github.com/gogo/protobuf"
   packages = [
+    "gogoproto",
     "proto",
+    "protoc-gen-gogo/descriptor",
     "sortkeys",
   ]
   pruneopts = "NUT"
@@ -1109,6 +1135,64 @@
   packages = ["packet"]
   pruneopts = "NUT"
   revision = "454ade9"
+
+[[projects]]
+  digest = "1:9e3f3e136cd9fb4a83812f9a8700cd25cb0affb18ac56ca5c6b49433a226d629"
+  name = "go.etcd.io/etcd"
+  packages = [
+    "auth/authpb",
+    "clientv3/balancer",
+    "clientv3/balancer/connectivity",
+    "clientv3/balancer/picker",
+    "clientv3/balancer/resolver/endpoint",
+    "clientv3/credentials",
+    "etcdserver/api/v3rpc/rpctypes",
+    "etcdserver/etcdserverpb",
+    "mvcc/mvccpb",
+    "pkg/logutil",
+    "pkg/systemd",
+    "pkg/types",
+    "raft",
+    "raft/confchange",
+    "raft/quorum",
+    "raft/raftpb",
+    "raft/tracker",
+    "version",
+  ]
+  pruneopts = "NUT"
+  revision = "8a03d2e9614b8192ebaa5a25ef92f6ff62e3593c"
+  version = "v3.4.14"
+
+[[projects]]
+  digest = "1:bb042ee0d02d4c75dbc3dd96bb807733d96901c2c2877c34bfbe7f87bd5488e6"
+  name = "go.uber.org/atomic"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "12f27ba2637fa0e13772a4f05fa46a5d18d53182"
+  version = "v1.7.0"
+
+[[projects]]
+  digest = "1:70c0a2a17f95b0075c8f772b2c8acf6a125f44221560d9a48c552b004ee2f871"
+  name = "go.uber.org/multierr"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "3114a8b704d2d28dbacda34a872690aaef66aeed"
+  version = "v1.6.0"
+
+[[projects]]
+  digest = "1:9acb6c5a5c2358d5733c4ab294289d661ec8aea5c15cb88c9830e569934daaeb"
+  name = "go.uber.org/zap"
+  packages = [
+    ".",
+    "buffer",
+    "internal/bufferpool",
+    "internal/color",
+    "internal/exit",
+    "zapcore",
+  ]
+  pruneopts = "NUT"
+  revision = "404189cf44aea95b0cd9bddcb0242dd4cf88c510"
+  version = "v1.16.0"
 
 [[projects]]
   digest = "1:2f2876d01834a13b6d9116d02cfc7bb7e0becbf7799604a7e7a9a08df0d42e79"
