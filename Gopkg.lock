@@ -6,8 +6,8 @@
   name = "cloud.google.com/go"
   packages = ["compute/metadata"]
   pruneopts = "NUT"
-  revision = "993bc6d69389a81fc259e0ce6f5d01cb37bd2899"
-  version = "v0.74.0"
+  revision = "e3e62374ae4646946ae20e58521e35e72b3f1804"
+  version = "v0.71.0"
 
 [[projects]]
   digest = "1:4d60e27f5b7557ed7b77c641da8a9f7c9254e8d3d41f4f7c943a4a1bd0ebde14"
@@ -109,7 +109,7 @@
   version = "v6"
 
 [[projects]]
-  digest = "1:24c393fc100e643c515ab40d84d44645b2022db10740f0800f2288cd1a96c445"
+  digest = "1:6b161304451c1f944c9054768dfb0eddd56145a618d7adece929cec9eb5cab3f"
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -123,6 +123,7 @@
     "aws/credentials/ec2rolecreds",
     "aws/credentials/endpointcreds",
     "aws/credentials/processcreds",
+    "aws/credentials/ssocreds",
     "aws/credentials/stscreds",
     "aws/crr",
     "aws/csm",
@@ -154,6 +155,7 @@
     "private/protocol/query",
     "private/protocol/query/queryutil",
     "private/protocol/rest",
+    "private/protocol/restjson",
     "private/protocol/restxml",
     "private/protocol/xml/xmlutil",
     "service/autoscaling",
@@ -173,12 +175,14 @@
     "service/s3",
     "service/sqs",
     "service/sqs/sqsiface",
+    "service/sso",
+    "service/sso/ssoiface",
     "service/sts",
     "service/sts/stsiface",
   ]
   pruneopts = "NUT"
-  revision = "5bf824bb44d0882723ac522a736aec913d9f05df"
-  version = "v1.36.12"
+  revision = "43f483ecf7b9f129c41d16cb1e22a7f620a06680"
+  version = "v1.37.1"
 
 [[projects]]
   digest = "1:cb0535f5823b47df7dcb9768ebb6c000b79ad115472910c70efe93c9ed9b2315"
