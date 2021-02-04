@@ -6,8 +6,8 @@
   name = "cloud.google.com/go"
   packages = ["compute/metadata"]
   pruneopts = "NUT"
-  revision = "993bc6d69389a81fc259e0ce6f5d01cb37bd2899"
-  version = "v0.74.0"
+  revision = "e3e62374ae4646946ae20e58521e35e72b3f1804"
+  version = "v0.71.0"
 
 [[projects]]
   digest = "1:4d60e27f5b7557ed7b77c641da8a9f7c9254e8d3d41f4f7c943a4a1bd0ebde14"
@@ -787,7 +787,7 @@
   version = "v1.4.5"
 
 [[projects]]
-  digest = "1:e8185fbeb206515e08c0a5ee0aed0814e391c39c6a5c92a5878108fd1ed4d3d1"
+  digest = "1:dfa1820884c42c635f9767a11bd1dff0eab3438043a7a17253b94a09b49214d6"
   name = "github.com/onsi/ginkgo"
   packages = [
     ".",
@@ -811,8 +811,8 @@
     "types",
   ]
   pruneopts = "NUT"
-  revision = "55c858784e51c26077949c81b6defb6b97b76944"
-  version = "v1.14.2"
+  revision = "c75f46eb0a6e1e3de5a78dd0eb4e2492d4ec5829"
+  version = "v1.15.0"
 
 [[projects]]
   digest = "1:6710b516b7f8a97a4da40142a6cdc74a56d55b63e49c18c2081c1ad964a699b7"
