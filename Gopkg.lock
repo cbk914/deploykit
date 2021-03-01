@@ -6,8 +6,8 @@
   name = "cloud.google.com/go"
   packages = ["compute/metadata"]
   pruneopts = "NUT"
-  revision = "993bc6d69389a81fc259e0ce6f5d01cb37bd2899"
-  version = "v0.74.0"
+  revision = "e3e62374ae4646946ae20e58521e35e72b3f1804"
+  version = "v0.71.0"
 
 [[projects]]
   digest = "1:4d60e27f5b7557ed7b77c641da8a9f7c9254e8d3d41f4f7c943a4a1bd0ebde14"
@@ -815,7 +815,7 @@
   version = "v1.14.2"
 
 [[projects]]
-  digest = "1:6710b516b7f8a97a4da40142a6cdc74a56d55b63e49c18c2081c1ad964a699b7"
+  digest = "1:ace45ffa74b93d731e87c4e59bdaddb921d07205f9165ad0ba2c1fcdb320d9dd"
   name = "github.com/onsi/gomega"
   packages = [
     ".",
@@ -832,8 +832,8 @@
     "types",
   ]
   pruneopts = "NUT"
-  revision = "f9a2b5d71f6c392d3169b2f53d4c3531062044c4"
-  version = "v1.10.4"
+  revision = "3e036b855ae3e332843aff25edf11a0a37033156"
+  version = "v1.10.5"
 
 [[projects]]
   digest = "1:9bda2e33f39e8ca60c4ddf220b4dcadff77919a87221004f6ca46efb088aeaaf"
@@ -1201,17 +1201,6 @@
   ]
   pruneopts = "NUT"
   revision = "a263ba8"
-
-[[projects]]
-  branch = "master"
-  digest = "1:325a1b73817aa79fc85f10376ed41ea607f7dd7f6c6bfa46df6a28ef2857941f"
-  name = "golang.org/x/xerrors"
-  packages = [
-    ".",
-    "internal",
-  ]
-  pruneopts = "NUT"
-  revision = "5ec99f83aff198f5fbd629d6c8d8eb38a04218ca"
 
 [[projects]]
   digest = "1:e0c2f76ef98396f908f1917c1e542a612a40083734dfbedade36976ec5e89d3a"
