@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.11
 
 MAINTAINER David Chung <david.chung@docker.com>
 
